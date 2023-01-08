@@ -1,5 +1,4 @@
 package classComponents;
-
 public class ClassObjectAssignment2Student {
     public static void main(String[] args) {
         ClassObjectAssignment2Student re = new ClassObjectAssignment2Student();
