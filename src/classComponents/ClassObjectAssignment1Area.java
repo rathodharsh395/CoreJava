@@ -1,8 +1,5 @@
 package classComponents;
 import java.util.Scanner;
-
-import static java.lang.System.*;
-
 public class ClassObjectAssignment1Area {
     int recLength ;
     int recBreadth;
