@@ -1,7 +1,7 @@
 package classComponents;
 
 public class EpisodeTest {
-     static{
+     {
         Episode episode= new Episode();
 
         //method call
