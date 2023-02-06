@@ -13,6 +13,7 @@ public class Demo1 {
         System.out.println(5 > 4 && 3 < 2);//false
         System.out.println(5 > 4 || 3 < 2);//true
         System.out.println(5 > 40 || 3 < 2);//false
+        System.out.println((5>40) != (3<2));//false
         System.out.println(!(4>3));//false
         System.out.println(!(4<3));//true
 
@@ -36,7 +37,5 @@ public class Demo1 {
 
         System.out.println(!true);//false
         System.out.println(!false);//true
-
-
     }
 }
