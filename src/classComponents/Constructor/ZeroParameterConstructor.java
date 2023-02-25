@@ -5,6 +5,8 @@ package classComponents.Constructor;
     int num;
     String name;
     Test(){
+        //this.name= "abc";//instead of custom default values you define your own dummy values.
+        //this.num= 10;
         System.out.println("ZeroParameterConstructor called");
     }
 
