@@ -14,6 +14,5 @@ public class NamingThread1 extends Thread {
         System.out.println("main:"+Thread.currentThread().isAlive());
         System.out.println("n1:"+n1.isAlive() +"\n"+"n2:"+ n2.isAlive());
 
-
     }
 }
