@@ -16,6 +16,5 @@ public class Demo4 {
 class ConsumerImpl implements Consumer{
     @Override
     public void accept(Object o){
-        System.out.println(o);
     }
 }

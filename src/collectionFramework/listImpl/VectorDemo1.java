@@ -1,4 +1,6 @@
-package collectionFramework;
+package collectionFramework.listImpl;
+import collectionFramework.listImpl.Student;
+
 import java.util.List;
 import java.util.Vector;
 

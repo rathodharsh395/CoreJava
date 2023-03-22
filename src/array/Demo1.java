@@ -38,6 +38,5 @@ public class Demo1 {
            we create an object inside the heap
            and all the array elements will be stored as part of the object sequentially
         */
-
     }
 }

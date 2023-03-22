@@ -9,6 +9,7 @@ public class Demo1 {
         MovieService ref = new MovieService() {
             @Override
             public void bookTicket() {
+               // static int i =0; static not allowed
                 System.out.println("Movie ticket booked by anonymous class");
             }
         };
