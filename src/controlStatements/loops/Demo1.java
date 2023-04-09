@@ -1,4 +1,4 @@
-package loops;
+package controlStatements.loops;
 
 public class Demo1 {
     public static void main(String[] args)

@@ -1,4 +1,4 @@
-package loops;
+package controlStatements.loops;
 import java.util.Scanner;
 public class Assignment11 {
     public static void main(String[] args) {
