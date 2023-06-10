@@ -2,7 +2,7 @@ package stringHandling;
 
 public class Demo3ReverseString {
     public static void main(String[] args) {
-        String str = "welcom To IT Shaala";
+        String str = "welcome To IT Shaala";
         char [] ch= str.toCharArray();
         int left =0;
         int right = ch.length-1;
