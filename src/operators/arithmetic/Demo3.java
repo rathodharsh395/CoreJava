@@ -1,7 +1,5 @@
 package operators.arithmetic;
 
-import com.sun.org.apache.bcel.internal.generic.FSUB;
-
 public class Demo3 {
     public static void main(String[] args) {
         int number = 123;

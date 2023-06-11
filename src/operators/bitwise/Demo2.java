@@ -1,5 +1,5 @@
 package operators.bitwise;
-
+// Bit-Shift Operators
 public class Demo2 {
     public static void main(String[] args) {
         //&, |, ^, ~, <<, >>, >>>
