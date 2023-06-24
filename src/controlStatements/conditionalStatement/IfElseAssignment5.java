@@ -2,7 +2,7 @@ package controlStatements.conditionalStatement;
 
 import java.util.Scanner;
 
-public class Assignment5 {
+public class IfElseAssignment5 {
     public static void main(String[] args) {
         System.out.println("enter your marks :");
         Scanner hr = new Scanner(System.in);

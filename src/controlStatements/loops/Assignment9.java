@@ -1,7 +1,6 @@
 package controlStatements.loops;
 
 import java.util.Scanner;
-
 public class Assignment9 {
     public static void main(String[] args){
         String choice = "";

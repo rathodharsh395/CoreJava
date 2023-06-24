@@ -23,6 +23,8 @@ public class DataTypeDemo1
         System.out.println(floatValue1+char2);//67.0
         System.out.println(longValue1+char2);//67
 
+
+
 //Arithmetic operations of different datatype and result
     //                  ope 1(+,-,*,/,%)ope 2  = result
 
