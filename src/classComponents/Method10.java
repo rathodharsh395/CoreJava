@@ -1,5 +1,5 @@
 package classComponents;
-//here we have used the concept of recursion
+//here we have used the concept of recursion to print table
 public class Method10 {
         public static void table(int x,int y){
             if(y != 1){
