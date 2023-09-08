@@ -9,7 +9,8 @@ package classComponents.Constructor;
         id = i;
     }
 }
- class Java
+//public class Java{    //CTE
+class Java
 {
   public static void main(String[] args) {
       ParameterizedConstructor  par = new ParameterizedConstructor("Harish",395);

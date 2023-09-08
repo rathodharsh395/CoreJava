@@ -1,11 +1,10 @@
 package oops.Inheritance;
 
 public class Child extends Parent{
-    int a = 100;
-    int b = 200;
+
     int c = 300;
     int d = 400;
-     void m1(){
-        System.out.println("child m1 method");
-    }
+     void m2() { System.out.println("child m2 method");}
+     void m3() { System.out.println("child m3 method");}
+
 }

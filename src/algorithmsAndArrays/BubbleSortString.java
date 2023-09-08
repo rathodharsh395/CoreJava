@@ -24,5 +24,6 @@ public class BubbleSortString {
         String p = "prashant";
         String s = "swapnil";
         System.out.println(p.compareTo(s)>0); // -ve
+        System.out.println(s.compareTo(p));   // +ve
     }
 }

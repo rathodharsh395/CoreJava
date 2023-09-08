@@ -5,10 +5,10 @@ import java.util.Arrays;
 public class Demo10ArrayEquality {
     public static void main(String[] args) {
         int[] array1 = {100,200,10,12};
-        int[] array2 = {100,200,10,12};
-        System.out.println("Array's are equal: "+ arrayEquals(array1,array2));
-        boolean equal = Arrays.equals(array1,null);
-        System.out.println("with equlas method of Array class: "+equal);
+        int[] array2 = {100,200,12,10};
+        System.out.println("Array's are equal: "+ arrayEquals(null,null));
+        boolean equal = Arrays.equals((int[]) null,null);
+        System.out.println("with equlas method of Arrays class: "+equal);
     }
     public static boolean arrayEquals(int[] arry1 , int[] arry2) {
         if (arry1 == arry2) {
