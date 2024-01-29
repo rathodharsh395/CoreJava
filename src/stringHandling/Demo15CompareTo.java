@@ -11,5 +11,10 @@ public class Demo15CompareTo {
         // compareTo returns three possible value : zero, positive and negative
         // it compares the strings based on unicode[ascii] value
         System.out.println(66-65);
+
+        String s1 = "a"; // 97
+        String s2 = "A"; // 65
+        System.out.println(s1.compareTo(s2));  // 32
+        System.out.println(s1.compareToIgnoreCase(s2)); // 0
     }
 }

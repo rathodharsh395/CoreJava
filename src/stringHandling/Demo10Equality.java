@@ -15,7 +15,7 @@ public class Demo10Equality {
         System.out.println("invalid creds");
      }
         System.out.println(username.hashCode()+" "+dbUsername.hashCode());
-    //to check the content we use equals method
+    //to check the content of string object we use equals method
        if(username.equals(dbUsername)&&password.equals(dbPassword)){
            System.out.println("authenticated");
        }

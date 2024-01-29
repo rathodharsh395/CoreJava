@@ -12,7 +12,7 @@ public class LinkedListDemo3 {
         List list = new LinkedList();
         list.add(str.toString());
         list.add(product.toString());
-        list.add(student);
+        list.add(student.toString());
         System.out.println(list);
 
     }

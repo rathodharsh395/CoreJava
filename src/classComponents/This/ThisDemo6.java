@@ -6,7 +6,7 @@ public class ThisDemo6 {
     }
     public static void main(String[] args) {
         ThisDemo6 t =new ThisDemo6();
-        t.m1();
-
+        ThisDemo6 th = t.m1();
+        System.out.println(t + ": "+ th);
     }
 }

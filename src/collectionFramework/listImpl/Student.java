@@ -4,6 +4,7 @@ public class Student {
     int studentId;
     String studentName;
     String address;
+    public Student(){}
     public Student(int studentId,String studentName,String address){
         this.studentId = studentId;
         this.studentName = studentName;

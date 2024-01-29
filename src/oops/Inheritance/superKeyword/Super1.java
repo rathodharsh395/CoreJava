@@ -9,6 +9,11 @@ class SuperDemo1 extends Super1{
         System.out.println(i);//30
         System.out.println(this.i);//20
         System.out.println(super.i);//10
-
+    }
+    public static void main(String[] args) {
+        SuperDemo1 s = new SuperDemo1();
+        s.show(30);
+//      System.out.println(super.i);
+//      java: non-static variable super cannot be referenced from a static context
     }
 }

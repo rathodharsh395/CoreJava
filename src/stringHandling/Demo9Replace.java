@@ -6,8 +6,14 @@ public class Demo9Replace {
         str1 = str1.replace('a', '@');
         System.out.println(str1);
 
-        String str2 = "I am ionman ";
-        str2 = str2.replace("ionman","Thor");
+        String str2 = "This is Demo ";
+        str2 = str2.replace("is","was");
         System.out.println(str2);
+
+        str2 = str2.replaceFirst("was","is");
+        System.out.println(str2);
+
+        str1 = str1.replaceAll("@","a");
+        System.out.println(str1);
     }
 }

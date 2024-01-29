@@ -4,7 +4,7 @@ import java.util.TreeSet;
 public class TreeSetDemo1 {
     public static void main(String[] args) {
         //1. unique: no duplicates
-        //2. sorting order will not be maintained
+        //2. sorting order will be maintained
         //3. insertion order will not be maintained
         //4. can store homogeneous data only
         //5. cannot store heterogeneous data as sorting is required.
@@ -22,7 +22,7 @@ public class TreeSetDemo1 {
        // set.add("abc");java.lang.ClassCastException: java.lang.Integer cannot be cast to java.lang.String
        // set.add(null);java.lang.NullPointerException
        // set.add('A');java.lang.ClassCastException: java.lang.Integer cannot be cast to java.lang.String
-        System.out.println(set);
+        System.out.println("Sorted TreeSet: "+set);
         System.out.println("size of set "+set.size());
     }
 }

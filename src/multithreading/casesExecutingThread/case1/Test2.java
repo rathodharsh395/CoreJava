@@ -8,6 +8,7 @@ class MyThread extends Thread{
 public class Test2 {
     public static void main(String[] args) {
         MyThread thread = new MyThread();
-        thread.start();
+        Thread t1 = new Thread(thread);
+        t1.start();
     }
 }

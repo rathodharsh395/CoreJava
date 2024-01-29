@@ -11,5 +11,6 @@ public class ThisDemo4 {
     public static void main(String[] args) {
         ThisDemo4 re = new ThisDemo4();
         re.m2();
+//      re.m1(this); CTE // static method
     }
 }

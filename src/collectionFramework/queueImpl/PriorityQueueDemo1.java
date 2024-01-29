@@ -1,27 +1,27 @@
 package collectionFramework.queueImpl;
+import java.util.Iterator;
 import java.util.Queue;
 import java.util.PriorityQueue;
-
 public class PriorityQueueDemo1 {
     public static void main(String[] args) {
-        //Priority
         Queue<String> queue = new PriorityQueue<>();
         // Front/Head ------> Rear/Tail
-
         //insertion from one end
-        queue.offer("Amit");
-        //queue.add("Akshay");
-        queue.offer("Mijay");
-        //queue.add("Gaurav");
-        queue.offer("Vunjal");
+        queue.offer("USA");
+        queue.offer("India");
+        queue.offer("England");
+        queue.offer("Germany");
+        queue.offer("Australia");
+        System.out.println(queue);
 
-        int queueSize = queue.size();
-        for(int i=1;i<=queueSize;i++){
-            System.out.println(queue.poll());
+        Iterator<String> iterator= queue.iterator();
+        while(iterator.hasNext()){
+            System.out.print(iterator.next()+" ");
         }
-
-        /*for(int i=1;i<=queueSize;i++){
-            System.out.println(queue.remove());
-        }*/
+        while (queue.peek() !=null){
+            System.out.println("\nHead Element: "+queue.peek());
+            System.out.println("Removed Element from Queue: "+queue.remove());
+            System.out.println("Priority queue: "+queue);
+        }
     }
 }

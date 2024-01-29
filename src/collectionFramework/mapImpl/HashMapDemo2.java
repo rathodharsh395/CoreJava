@@ -1,33 +1,25 @@
 package collectionFramework.mapImpl;
+import java.util.Iterator;
 import java.util.Map;
 import java.util.HashMap;
-
 public class HashMapDemo2 {
     public static void main(String[] args) {
-        //1. unique keys
-        //2. no insertion order for keys
-        //3. no sorting order for keys
-        //4. keys can be homogeneous as well as heterogeneous
-        //5. null insertion at key place is possible only once.
-        //6. To maintain the uniqueness of keys it uses, equals and hashCode
-        //7. no restrictions for values
-        Map map = new HashMap();//container
-
-        //add a entry : <key, value>
-        map.put("ganesh",57);
-        map.put("ganesh",60);
-        map.put("ganesh",89);
-        map.put(null,87);
-        map.put(null,87);
-        map.put(89,54);
-        map.put("drona",68);
-        map.put("arjun",97);
-        System.out.println("No.of entries in the map "+map.size());
-        System.out.println("Keys "+map.keySet());
-        System.out.println("values "+ map.values());
-        System.out.println(map);
-
-
+        HashMap<Integer,String> hmap = new HashMap();
+        hmap.put(5,"Five");
+        hmap.put(10,"Ten");
+        hmap.put(15,"Fifteen");
+        hmap.put(20,"Twenty");
+        hmap.put(25,"Twenty-five");
+        hmap.put(30,"Thirty");
+        Iterator<Map.Entry<Integer,String>> itr= hmap.entrySet().iterator();
+        System.out.println("Iterating Entries of HashMap");
+        while (itr.hasNext()){
+            Map.Entry entry = itr.next();
+            System.out.println("Key:"+entry.getKey()+",Value:"+entry.getValue());
+        }
+        System.out.println("Removing last entry returned by Iterator");
+        itr.remove();
+        System.out.println("Entries after removing: "+hmap.entrySet());
 
     }
 }

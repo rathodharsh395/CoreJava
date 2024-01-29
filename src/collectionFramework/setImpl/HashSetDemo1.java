@@ -13,6 +13,7 @@ public class HashSetDemo1 {
         //7. to maintain the uniqueness of elements it uses internally equals() and hashCode()
         //8. internally it uses HashMap
         Set set = new HashSet();
+        System.out.println("size of set "+ set.size());
         set.add(100);
         set.add(100);
         set.add(10);
@@ -23,7 +24,6 @@ public class HashSetDemo1 {
         set.add(null);
         set.add('A');
         System.out.println(set);
-        System.out.println("size of set "+ set.size());
-
+        System.out.println("size of set: "+ set.size());
     }
 }

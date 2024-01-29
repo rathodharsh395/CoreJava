@@ -1,20 +1,24 @@
 package exceptionHandling;
+import java.io.BufferedReader;
+import java.io.FileNotFoundException;
+import java.io.FileReader;
 
 public class Demo29 {
-    public static int m1() {
-        try{
-            return 1;
-        }
-        catch (ArithmeticException e){
-            return 2;
-        }
-        finally
-        {
-            return 3;
-        }
+    public static void method() throws FileNotFoundException {
+//       FileReader file= new FileReader("C://User//Anurati//Desktop//abc.txt");
+//       BufferedReader fileInput = new BufferedReader(file);
+
+        throw new FileNotFoundException("cannot find file");  // checked exception
+
+//       throw new ArithmeticException();  Unchecked exception
     }
-    public static void main(String[] args)
-    {
-        System.out.println( m1());
+    public static void main(String[] args) {
+        try{
+            method();
+        }catch (Exception e){
+            e.printStackTrace();
+        }
+        System.out.println("rest of code");
+
     }
 }

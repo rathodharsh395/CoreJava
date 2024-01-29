@@ -31,8 +31,10 @@ public class ArrayListDemo1 {
         System.out.println(list1.addAll(0,list2));// return boolean
         System.out.println(list1);
         System.out.println(list1.get(2));// returns object
-
-
+        System.out.println(list1.contains("abc"));
+        System.out.println(list1.indexOf(200));
+        System.out.println(list1.set(3,"rahul"));
+        System.out.println(list1);
 
     }
 }
