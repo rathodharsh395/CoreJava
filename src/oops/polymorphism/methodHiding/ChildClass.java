@@ -2,10 +2,10 @@ package oops.polymorphism.methodHiding;
 
 public class ChildClass extends ParentClass{
      public static void classMethod(){
-        System.out.println("classMethod in Chilc class");
+        System.out.println("static Method in Chilc class");
     }
     public void instanceMethod(){
-        System.out.println("instaceMethod in Chile class");
+        System.out.println("instance Method in Chile class");
     }
 
 }

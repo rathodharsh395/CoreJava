@@ -29,7 +29,7 @@ public class ArrayListDemo3 {
         while (litr.hasNext()){
             System.out.print(litr.next());
         }
-        System.out.println("\nUsing forEach() method");
+        System.out.println("\nUsing forEach() method and method references");
         al.forEach(System.out::print);
 
         System.out.println("\nUsing Stream API (Java 8)");

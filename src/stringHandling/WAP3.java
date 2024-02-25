@@ -4,7 +4,7 @@ package stringHandling;
 import java.util.HashMap;
 import java.util.Map;
 
-public class WAP2 {
+public class WAP3 {
     public static void main(String[] args) {
         String s = "This is demo abc xyz i";
 
@@ -29,21 +29,28 @@ public class WAP2 {
         char[] c=s.toCharArray();
         for(char ca:c){
             if(hm.containsKey(ca)){
-                hm.put(ca,hm.get(ch)+1);
+                hm.put(ca,hm.get(ca)+1);
             }
             else{
                 hm.put(ca,1);
             }
         }
         int maxCount=0;
+        int minCount= Integer.MAX_VALUE;
         char maxChar = ' ';
+        char minChar = ' ';
         for(Map.Entry<Character,Integer> me:hm.entrySet()){
             if(maxCount<me.getValue()){
                 maxCount = me.getValue();
                 maxChar= me.getKey();
             }
+            if(minCount>me.getValue()){
+                minCount = me.getValue();
+                minChar = me.getKey();
+            }
         }
         System.out.println("Maximum Repeated character :"+ maxChar);
+        System.out.println("Minimum Repeated character :"+ minChar);
 
     }
 }

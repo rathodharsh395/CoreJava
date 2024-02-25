@@ -33,8 +33,8 @@ public class LinkedListDemo4 {
         while(litr.hasPrevious()){
             System.out.println(litr.previous());
         }
-        System.out.println("5.Using forEach() method");
-        list.forEach(System.out::println);
+        System.out.println("5.Using forEach() method and lambda expression");
+        list.forEach(a-> System.out.println(a));
 
         System.out.println("6.Using Stream API (Java 8)");
         list.stream().forEach(System.out::println);

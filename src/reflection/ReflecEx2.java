@@ -1,6 +1,8 @@
 package reflection;
 import java.lang.reflect.Method;
 import java.lang.reflect.Modifier;
+import java.util.Scanner;
+
 class Student{
     public void show(){
 
@@ -12,7 +14,10 @@ class Student{
 public class ReflecEx2 {
     public static void main(String[] args){
         try {
-            Class c =Class.forName("reflection.Student");
+            Scanner hr = new Scanner(System.in);
+            System.out.println("give full class path:");
+            String str = hr.next();
+            Class c =Class.forName(str);
             Method methods[]= c.getDeclaredMethods();
             for(Method m:methods){
                 System.out.println("Method Name: "+m.getName());

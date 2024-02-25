@@ -6,7 +6,7 @@ public class Demo14Split {
     public static void main(String[] args) {
         String str= "My name is, Deepak. I am 26, year old. I live ,in Delhi";
         String[] words = str.split("\\.");
-        String[] wor = str.split(",");
+        String[] wor = str.split("\\,");
         String[] wo = str.split(" ");
 
         printMyArrays(words);

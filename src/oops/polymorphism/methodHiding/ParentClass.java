@@ -2,9 +2,9 @@ package oops.polymorphism.methodHiding;
 
 public class ParentClass {
     /*final*/public static void classMethod(){
-        System.out.println("classMethod in Parent class");
+        System.out.println("static Method in Parent class");
     }
     public void instanceMethod(){
-        System.out.println("instanceMethod in Parent class");
+        System.out.println("instance Method in Parent class");
     }
 }

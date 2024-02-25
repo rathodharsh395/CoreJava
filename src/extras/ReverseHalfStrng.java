@@ -1,7 +1,7 @@
 package extras;
 
 import java.util.Scanner;
-public class ReverseStringHalf {
+public class ReverseHalfStrng {
     public static void main(String[] args) {
         Scanner hr = new Scanner(System.in);
         System.out.println("enter any string ");
